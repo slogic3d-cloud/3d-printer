@@ -21,7 +21,7 @@ Phase 0: **Planung**. Interview (120 Fragen) erledigt, Fabricate-Regeln recherch
 2. **KI-Regeln:** Claude darf weder CAD noch PCB designen und keinen Text für README/JOURNAL schreiben. Der Erbauer muss das selbst machen; Claude ist Mentor, Rechner, Reviewer und Rechercheur.
 3. **Kostenoptimierung ist Pflicht:** Echte AC-Servos, alles TMC5160 und ein Fallback-Board sind bei Reviewern schwer zu rechtfertigen.
 
-## Empfohlener Zuschnitt (Vorschlag, noch nicht bestätigt)
+## Zuschnitt: ✅ „Abspecken“ vom Erbauer bestätigt (2026-11-01)
 **Fabricate-Projekt 1 = Amethyst-Drucker (Tier 1, ≤ $500):**
 - Normale NEMA17-Stepper (z. B. LDO/Moons'), 24 V; Board bekommt Step/Dir-Header → Servos später möglich
 - TMC2209 für Z/E, TMC2240/5160 für XY
@@ -48,6 +48,9 @@ Phase 0: **Planung**. Interview (120 Fragen) erledigt, Fabricate-Regeln recherch
 | **Summe** | **~685 € (ohne 2. Düse)** |
 
 → Noch zu teuer für $500. Einsparideen: Klipper-Host = vorhandener alter Rechner/Pi, Display weglassen (Web-UI reicht), günstigere Schienen, Bauraum 220³.
+
+## Rollen
+Erbauer antwortete „wir machen es trotzdem“ auf die KI-Regeln. Claude hat abgelehnt, Journal/README zu schreiben oder CAD/PCB direkt zu erstellen (das wäre Täuschung von Hack Club und könnte zum Bann führen). Claude bleibt Mentor/Reviewer. → In der nächsten Session klären.
 
 ## Nächste Schritte
 1. Erbauer entscheidet über Budget und Zuschnitt (siehe Konflikte)
