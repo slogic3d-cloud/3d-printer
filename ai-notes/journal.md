@@ -16,3 +16,7 @@
 - Pico-Modul verworfen → RP2040 direkt auf eigener Platine, JLC bestückt. Tier 3.
 - PC-App-Konzept + Sensorquellen (LibreHardwareMonitor/PawnIO unter Windows) festgelegt.
 - Stichpunkte für dein JOURNAL: Warum RP2040 statt Pico (USB-C-Problem), Recherche zur CPU-Temperatur unter Windows. Bild: Screenshot vom RP2040-Datenblatt oder eine Skizze.
+
+## 2026-11-02: Interview bis Frage 80
+- Gehäuse-Details, 2-Lagen-PCB, RTC PCF8563, Firmware-Verhalten (Boot, Timeout, Update) festgelegt.
+- Stichpunkte für dein JOURNAL: Gehäuseteilung (Front + Rückschale, warum), 30°-Winkel. Bild: Handskizze vom Keil mit Maßen.

@@ -69,3 +69,25 @@ Runde 3 (Konzept, Eingabe-Elemente, Display, RGB) wurde vom Erbauer abgebrochen 
 58. Ausrichtung: **quer 480×320**.
 59. Layout: **2–4 Kacheln pro Seite**.
 60. Uhr-Format: **am PC einstellbar**.
+
+## Runde 16–20 (80/120)
+61. Neigung: **~30°**.
+62. USB-C-Ausgang: **Seite**.
+63. Display-Einfassung: **gedruckte Blende**.
+64. Füße: **Klebe-Gummifüße**.
+65. Logo/Name: **nichts**.
+66. BOOT/RESET-Zugang: **kleines Loch (Büroklammer)**.
+67. Teilung: Claude erklärt → 69.
+68. Höhe: **so flach wie möglich**.
+69. Teilung: **Front + Rückschale**.
+70. Fusion-Level: **Grundlagen**.
+71. PCB-Befestigung: **eigene Schrauben/M2-Standoffs**.
+72. Lizenz: **Open Source, Code MIT, Hardware CERN-OHL**.
+73. Lagen: Claude → **2 Lagen** (Fallback 4).
+74. RTC: Claude → **PCF8563 + 32,768-kHz-Quarz** (PC synchronisiert eh).
+75. KiCad lernen: **alles zusammen** (Hack Club Guides, YouTube, Learning by doing + Claude). Hinweis: Videoschauen zählt nicht als Journal-Zeit.
+76. Referenz: **RP2040 „Hardware design with RP2040“ als Vorlage lesen**, Schaltplan selbst zeichnen.
+77. Boot: **Amethyst-Bootlogo**.
+78. Verbindungsabbruch: **nach 5 s auf Uhr + Hinweis „PC getrennt“**.
+79. Farbschema/Sprache: **im Flash des Geräts speichern**.
+80. Firmware-Update: **UF2 per Drag & Drop + Update-Knopf im PC-Programm**.

@@ -8,8 +8,8 @@ _Letztes Update: 2026-11-02_
 - Tier 3 (max. $125), nur Grant
 - Zeigt CPU/GPU, RAM/Speicher, Uhr, Ping/Traffic/Speedtest
 - Firmware Arduino C++, PC-Programm Python (Win/Linux/Mac)
-- Gehäuse: schräger Keil, Fusion 360, PLA schwarz/lila
-- Interview: 60/120, Details in `kontext-zusammenfassung.md` und `fragen-antworten-v2.md`
+- Gehäuse: schräger Keil 30°, Front + Rückschale, Fusion 360, PLA schwarz/lila
+- Interview: 80/120, Details in `kontext-zusammenfassung.md` und `fragen-antworten-v2.md`
 
 ---
 ## (Archiv) Alter Stand Drucker

@@ -34,3 +34,11 @@
 [2026-11-02T12:12:25.381Z] [INFO] Worker consolidate completed in 22ms
 [2026-11-02T12:14:25.361Z] [INFO] Starting worker: testgaps (1/2 concurrent)
 [2026-11-02T12:14:25.361Z] [INFO] Worker testgaps completed in 2ms
+[2026-11-02T12:16:25.361Z] [INFO] Starting worker: backup (1/2 concurrent)
+[2026-11-02T12:16:25.376Z] [INFO] Worker backup completed in 17ms
+[2026-11-02T12:18:25.361Z] [INFO] Starting worker: harness (1/2 concurrent)
+[2026-11-02T12:18:25.364Z] [INFO] Worker harness completed in 5ms
+[2026-11-02T12:18:25.393Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-02T12:18:25.393Z] [INFO] Worker audit completed in 3ms
+[2026-11-02T12:21:37.852Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-02T12:21:37.853Z] [INFO] Worker map completed in 4ms
