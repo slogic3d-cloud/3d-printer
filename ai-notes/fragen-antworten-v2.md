@@ -91,3 +91,25 @@ Runde 3 (Konzept, Eingabe-Elemente, Display, RGB) wurde vom Erbauer abgebrochen 
 78. Verbindungsabbruch: **nach 5 s auf Uhr + Hinweis „PC getrennt“**.
 79. Farbschema/Sprache: **im Flash des Geräts speichern**.
 80. Firmware-Update: **UF2 per Drag & Drop + Update-Knopf im PC-Programm**.
+
+## Runde 21–25 (100/120)
+81. Reihenfolge: **PCB zuerst** (Lieferzeit JLC), parallel Gehäuse + Software.
+82. Breadboard-Prototyp: **nein**.
+83. Zeit: **5–10 h/Woche** (→ 15–40 h gesamt, passt zu Tier 3).
+84. Design-Review (Pflicht): **weiß noch nicht** → Claude erinnert vor Einreichen.
+85. Display-IC: **ST7796S** (statt ILI9488).
+86. Display-Shop: Amazon.de → Claude weist auf Fabricate-Regel hin → 90.
+87. JLC-Anzahl: erst 5 bestückt → Claude weist auf Kostenregel hin → 89.
+88. Insert-Werkzeug: weiß nicht → Claude: **normale Lötspitze reicht**.
+89. JLC: **2 bestückt** (+ 3 unbestückte Platinen).
+90. Display: **Amazon.de mit Begründung**.
+91. Bezahlung: **Fabricate-Karte/HCB**.
+92. Claude-Rolle: **Schaltplan-Reviews, Code-Hilfe, CAD-Feedback, BOM + Preise**.
+93. Amazon-Begründung: **verlässlicher Verkäufer/Rückgabe** (AliExpress-Displayvarianten oft falsch beschrieben).
+94. Display-Lib: **TFT_eSPI**.
+95. IDE: **PlatformIO in VS Code**.
+96. Protokoll: Claude → **JSON-Zeilen über USB-CDC (ArduinoJson)**.
+97. Python: **Variablen, if, Schleifen, Funktionen** (keine Klassen, noch keine pip-Erfahrung).
+98. Git: **GitHub Desktop/Web**.
+99. GUI: Claude → **pystray + tkinter**.
+100. GUI-Stil: **System-Standard**.

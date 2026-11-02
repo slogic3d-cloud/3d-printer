@@ -20,3 +20,7 @@
 ## 2026-11-02: Interview bis Frage 80
 - Gehäuse-Details, 2-Lagen-PCB, RTC PCF8563, Firmware-Verhalten (Boot, Timeout, Update) festgelegt.
 - Stichpunkte für dein JOURNAL: Gehäuseteilung (Front + Rückschale, warum), 30°-Winkel. Bild: Handskizze vom Keil mit Maßen.
+
+## 2026-11-02: Interview bis Frage 100
+- ST7796S statt ILI9488, 2 bestückte Platinen (Kostenregel), Tools festgelegt (PlatformIO, TFT_eSPI, pystray/tkinter, JSON-Protokoll).
+- Stichpunkte für dein JOURNAL: Vergleich ILI9488 und ST7796S (warum gewechselt), Amazon-Begründung. Bild: Screenshot vom Display-Datenblatt oder Produktfoto (eigener Screenshot, kein KI-Bild).
