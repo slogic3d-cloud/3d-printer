@@ -1,33 +1,32 @@
 # Kontext für Claude (bei jeder Session zuerst lesen)
 
 ## Projekt
-**Amethyst**: jetzt ein **einfaches Gerät** (USB-PC-Stats-Display) aus Elektronik + 3D-Gehäuse + Code. Der Drucker ist seit 2026-11-02 gestrichen. Stand: `kontext-zusammenfassung.md`.
-Erbauer: Teen (13–15) aus Deutschland, gefördert über **Hack Club Fabricate** (Tier noch offen).
-Repo: github.com/slogic3d-cloud/3d-printer, Branch `main`, direkt pushen erlaubt.
+**Amethyst PC Stats**: USB-PC-Stats-Display (3,5"-TFT, eigene RP2040-Platine, 3D-gedrucktes Keilgehäuse, Arduino-Firmware + Python-PC-App).
+Erbauer: Teen (13–15) aus Deutschland, Hack Club **Fabricate Tier 3 (max. $125)**.
+Repo: github.com/slogic3d-cloud/3d-printer (soll vom Erbauer in `amethyst-pc-stats` umbenannt werden).
+Der frühere 3D-Drucker-Plan ist gestrichen und gelöscht.
 
 ## Dateien
-- `ai-notes/kontext.md`: diese Datei (Regeln für mich)
-- `ai-notes/zusammenfassung.md`: aktueller Projektstand, Entscheidungen, offene Punkte → **nach jeder Session aktualisieren**
-- `ai-notes/fragen-antworten.md`: Protokoll des 120-Fragen-Interviews
+- `ai-notes/kontext-zusammenfassung.md`: **aktueller Stand, nach /clear zuerst lesen**
+- `ai-notes/zusammenfassung.md`: Projektüberblick, nächste Schritte
+- `ai-notes/fragen-antworten-v2.md`: 120-Fragen-Interview
+- `ai-notes/bom-schaetzung.md`: Kostenschätzung
+- `ai-notes/journal.md`: Claudes Arbeitslog (≠ Fabricate-JOURNAL)
 - `ai-notes/fabricate-regeln.md`: Programmregeln
-- `ai-notes/session-log.md`: kurzes Log, was ich pro Session gemacht habe (≠ Journal!)
-- `JOURNAL.md`: **gehört dem Erbauer**, ich schreibe dort keinen Inhalt
-- `README.md`: **gehört dem Erbauer**, ich schreibe dort keinen Inhalt
+- `JOURNAL.md`, `README.md`: **gehören dem Erbauer**, ich schreibe dort keinen Inhalt
+- Ordner: `CAD/`, `PCB/`, `firmware/`, `pc-app/`
 
 ## ⚠️ Harte Regeln (Fabricate, sonst Ablehnung/Bann für den Erbauer)
-1. **Keinen Text in README.md oder JOURNAL.md schreiben.** Ich darf Struktur-Tipps und Feedback geben und auf Rechtschreibung hinweisen, aber der Text kommt vom Erbauer.
-2. **Kein CAD/PCB direkt designen.** Kein generiertes STEP/3MF/KiCad-Layout als Projektdatei. Erlaubt: Konzepte, Maße, Rechnungen, Teileauswahl, Datenblätter, Reviews von *seinen* Dateien, Erklärungen, Fehlersuche.
-3. **PCB:** Schaltplan, Platzierung und Routing macht der Erbauer selbst von Hand (kein Autorouter). Ich erkläre, prüfe und finde Fehler.
-4. **Firmware/Klipper-Config:** Ich darf helfen, aber nicht alles allein schreiben. Der Erbauer schreibt mit, ich erkläre und reviewe.
-5. **Keine KI-Bilder/Grafiken.**
-6. Der Erbauer muss eine **AI Disclosure** ins README schreiben (selbst formuliert).
-7. Jeder Journal-Eintrag ist max. 5 h lang und hat mindestens 1 Bild. Ich erinnere ihn daran.
+1. **Keinen Text in README.md oder JOURNAL.md schreiben.** Struktur-Tipps, Stichpunkte, Feedback ja, Text vom Erbauer.
+2. **Kein CAD/PCB direkt designen.** Erlaubt: Konzepte, Maße, Rechnungen, Teileauswahl, Datenblätter, Reviews, Erklärungen, Fehlersuche.
+3. **PCB:** Schaltplan, Platzierung, Routing macht der Erbauer von Hand (kein Autorouter).
+4. **Firmware/PC-App:** helfen, erklären, kleine Beispiele, reviewen, aber nicht alles allein schreiben.
+5. **Keine KI-Bilder.**
+6. AI Disclosure ins README (Erbauer formuliert, ich gebe Stichpunkte).
+7. Jeder Journal-Eintrag max. 5 h + mind. 1 Bild. Am Session-Ende Stichpunkte geben.
 
 ## Arbeitsweise
-- Chat auf **Deutsch**, kurz, wenig Erklärung. Repo-Doku ist Englisch (schreibt der Erbauer).
-- **Bei Design- und Geldentscheidungen fragen** (AskUserQuestion). Sicherheit entscheide ich maximal streng.
-- Sicherheit: Er ist 13–15 und der Drucker steht im Zimmer. 230-V-Arbeiten nur mit dem Elektriker/Erwachsenen. Thermal Runaway, Thermosicherung, Rauchmelder und Filter sind Pflicht.
-- Kostenoptimiert bleiben (Fabricate-Pflicht): AliExpress/Trianglelab vor Amazon, Druckteile über Printing Legion.
-- Erbauer-Drucker: Kobra 2 Neo (PLA, First-Layer-Probleme).
-- Am Ende jeder Session: `zusammenfassung.md` + `session-log.md` aktualisieren, committen, pushen.
-- Commit-Nachrichten: Englisch, kurz.
+- Chat Deutsch, Erklärungen **mittel** (bei Elektronik/Code das Warum). Repo-Doku Englisch (schreibt der Erbauer).
+- Bei Design- und Geldentscheidungen fragen. Kostenoptimiert bleiben (AliExpress vor Amazon, nur 2 PCBA).
+- Tägliche Erinnerung 15 Uhr (geplante Aufgabe in dieser Session).
+- Am Ende jeder Session: Notizen aktualisieren, committen, pushen. Commit-Nachrichten Englisch, kurz.

@@ -1,6 +1,6 @@
 # Kontext-Zusammenfassung (nach /clear zuerst lesen)
 
-_Stand: 2026-11-02, Interview 100/120_
+_Stand: 2026-11-02, Interview 120/120 ✅_
 
 **Amethyst** = USB-PC-Stats-Display (Hack Club Fabricate, **Tier 3, max. $125, kein Eigengeld**). Der 3D-Drucker ist gestrichen.
 
@@ -23,8 +23,12 @@ _Stand: 2026-11-02, Interview 100/120_
 - Erbauer: Programmieren „bisschen“, KiCad „mal reingeschaut“, 3–4 Wochen.
 
 ## Offen
+- Nächster Schritt: KiCad-10-Projekt + Schaltplan-Blöcke mit Claude, danach Journal-Eintrag, täglich 15-Uhr-Erinnerung
+- Display-Pinout des Amazon-Moduls prüfen, bevor der Header platziert wird
+- Repo-Umbenennung in amethyst-pc-stats (Erbauer)
+- USB: ESD USBLC6 + Polyfuse 500 mA, Testpunkte 5V/3V3/GND, erster Test mit Multimeter + Powerbank
 - BOM + Kosten prüfen (≤ $125 inkl. Versand)
 - USB-Standby-Strom am Gigabyte-Board messen
 
 ## Ablauf
-4 Fragen pro Popup, alle ~20 Fragen Notizen + Commit + Hinweis auf `/clear`. Protokoll: `fragen-antworten-v2.md`. Harte Regeln: `kontext.md`.
+Interview fertig. Am Session-Ende Notizen + Commit + Journal-Stichpunkte. Protokoll: `fragen-antworten-v2.md`. Harte Regeln: `kontext.md`.

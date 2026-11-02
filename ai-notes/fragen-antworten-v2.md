@@ -113,3 +113,25 @@ Runde 3 (Konzept, Eingabe-Elemente, Display, RGB) wurde vom Erbauer abgebrochen 
 98. Git: **GitHub Desktop/Web**.
 99. GUI: Claude → **pystray + tkinter**.
 100. GUI-Stil: **System-Standard**.
+
+## Runde 26–30 (120/120) ✅ Interview fertig
+101. USB-Schutz: **ESD-Diode USBLC6 + Polyfuse 500 mA**.
+102. Erster Test: **Multimeter + Powerbank** (nicht direkt am PC).
+103. Testpunkte: **5 V, 3,3 V, GND**.
+104. Passung: **KiCad-STEP in Fusion + Testdruck der Front mit echtem Display**.
+105. Repo: **umbenennen (auf GitHub, macht der Erbauer) + neu strukturieren, Drucker-Kram löschen**.
+106. Video: **später**.
+107. Teilen: „Fabricate“ → Claude: zusätzlich Reddit/Printables-Post nötig (Build-Ship).
+108. AI-Disclosure: **Claude gibt Stichpunkte**, Erbauer formuliert.
+109. Repo-Name: **amethyst-pc-stats**.
+110. Alte Drucker-Notizen: **komplett löschen**.
+111. `.claude-flow/` + `.swarm/`: **drin lassen**.
+112. Ordner: **CAD/ PCB/ firmware/ pc-app/ angelegt** (.gitkeep).
+113. Nächster Schritt: **KiCad mit Claude starten → Journal-Eintrag am Ende der Session → morgen weiter**.
+114. BOM-Schätzung: **jetzt** (→ `bom-schaetzung.md`).
+115. Check-ins: **Claude erinnert**.
+116. Erklärungen: **mittel** (bei Elektronik/Code das Warum).
+117. Erinnerung: **täglich**.
+118. Uhrzeit: **15:00** (deutsche Zeit).
+119. KiCad: **10 installiert**.
+120. KiCad-Start: **Projekt anlegen + Schaltplan in Blöcke teilen**.

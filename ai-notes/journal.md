@@ -24,3 +24,7 @@
 ## 2026-11-02: Interview bis Frage 100
 - ST7796S statt ILI9488, 2 bestückte Platinen (Kostenregel), Tools festgelegt (PlatformIO, TFT_eSPI, pystray/tkinter, JSON-Protokoll).
 - Stichpunkte für dein JOURNAL: Vergleich ILI9488 und ST7796S (warum gewechselt), Amazon-Begründung. Bild: Screenshot vom Display-Datenblatt oder Produktfoto (eigener Screenshot, kein KI-Bild).
+
+## 2026-11-02: Interview fertig (120/120), Repo aufgeräumt
+- Drucker-Notizen gelöscht, Ordner CAD/ PCB/ firmware/ pc-app/ angelegt, BOM-Schätzung (~$80–125).
+- Tägliche Erinnerung 15 Uhr eingerichtet.
