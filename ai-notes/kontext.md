@@ -1,8 +1,8 @@
 # Kontext für Claude (bei jeder Session zuerst lesen)
 
 ## Projekt
-**Amethyst**: eigener geschlossener CoreXY-3D-Drucker (25³ cm, Dual-Düse im H2D-Stil, Klipper, eigenes Mainboard).
-Erbauer: Teen (13–15) aus Deutschland, gefördert über **Hack Club Fabricate** (Tier 1, max. $500).
+**Amethyst**: jetzt ein **einfaches Gerät** (Eingabe + Anzeige, USB-C) aus Elektronik + 3D-Gehäuse + Code. Der Drucker ist seit 2026-11-02 gestrichen. Stand: `kontext-zusammenfassung.md`.
+Erbauer: Teen (13–15) aus Deutschland, gefördert über **Hack Club Fabricate** (Tier noch offen).
 Repo: github.com/slogic3d-cloud/3d-printer, Branch `main`, direkt pushen erlaubt.
 
 ## Dateien

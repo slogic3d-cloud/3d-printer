@@ -1,6 +1,14 @@
 # Zusammenfassung – Projektstand Amethyst
 
-_Letztes Update: 2026-11-01 (Session 1)_
+_Letztes Update: 2026-11-02_
+
+## ⚡ NEU (2026-11-02): Drucker gestrichen
+Der Erbauer hat den 3D-Drucker gestrichen (zu teuer, zu kompliziert). **Amethyst** wird ein einfaches Projekt aus Elektronik, 3D-Design und Programmierung.
+- Bisher festgelegt: **Eingabe + Anzeige**, USB-C, 3–4 Wochen, Tier offen (vermutlich 4 oder 3)
+- Interview läuft: `fragen-antworten-v2.md` (8/120)
+
+---
+## (Archiv) Alter Stand Drucker
 
 ## Status
 Phase 0: **Planung**. Interview (120 Fragen) erledigt, Fabricate-Regeln recherchiert. Noch kein CAD, PCB oder Teil bestellt.
