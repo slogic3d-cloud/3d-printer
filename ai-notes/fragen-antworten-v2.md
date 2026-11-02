@@ -43,3 +43,29 @@ Runde 3 (Konzept, Eingabe-Elemente, Display, RGB) wurde vom Erbauer abgebrochen 
 34. Platine: Claude entscheidet → Trägerplatine: Pico, USB-C, ESD-Schutz, RTC + Knopfzelle, Display-Anschluss, Backlight-Transistor, Befestigungslöcher.
 35. KiCad: **mal reingeschaut**.
 36. USB: **USB-C-Buchse auf eigener Platine** → ⚠️ Pico-USB-Datenleitungen liegen auf Testpads TP2/TP3 unten, Anbindung muss geklärt werden.
+
+## Runde 10–15 (60/120)
+37. Pico-USB-Problem → **RP2040 direkt auf eigener Platine** (Quarz, Flash, LDO selbst).
+38. SMD-Löten: **JLC bestückt (PCBA)**.
+39. Display-Anschluss: Claude → **Platine direkt hinter dem Display, Modul per Stiftleiste aufgesteckt**.
+40. Touch: **ohne**.
+41. Tasten: **BOOT + RESET**.
+42. Flash: Claude → **16 MB (W25Q128)**.
+43. PCB-Farbe: **schwarz**.
+44. Status-LED: **keine**.
+45. Tier: egal → Claude: **Tier 3 (max. $125)**.
+46. Eigengeld: **nein, nur Grant**.
+47. Vorhanden: nur **USB-C-Kabel** → Filament, Inserts, Schrauben kommen in die BOM.
+48. Journal: **Claude erinnert + gibt Stichpunkte**, Erbauer schreibt selbst.
+49. PC-App: „egal, aber benutzerfreundlich“ → Claude: **Tray-Icon + kleines Einstellungsfenster, Gerät automatisch finden**.
+50. Autostart: **nein, manuell**.
+51. GPU: **AMD**.
+52. CPU-Temp Windows: Claude recherchiert → **LibreHardwareMonitor (mit PawnIO) + Remote Web Server, Python liest `localhost:8085/data.json`**; Linux: psutil + amdgpu-sysfs; Mac: nur Last.
+53. Einstellungen: **Seitenwechsel-Zeit, Helligkeit, Seiten an/aus, Farbschema**.
+54. Verteilung: **.exe (PyInstaller) für Windows + Python-Skript für Linux/Mac**.
+55. Ping-Ziele: **am PC einstellbar**.
+56. Speedtest-Intervall: **am PC einstellbar**.
+57. UI-Sprache: **umschaltbar (DE/EN)**.
+58. Ausrichtung: **quer 480×320**.
+59. Layout: **2–4 Kacheln pro Seite**.
+60. Uhr-Format: **am PC einstellbar**.

@@ -11,3 +11,8 @@
 - Konzept steht: PC-Stats-Display mit 3,5"-TFT, Pico auf eigener Platine, Keil-Gehäuse.
 - Spotify gestrichen. RTC dazu. Gigabyte-Board: USB-Standby-Strom prüfen (ErP).
 - Stichpunkte für dein JOURNAL (selbst formulieren + Bild!): Konzeptentscheidung, Skizze vom Keil-Gehäuse.
+
+## 2026-11-02: Interview bis Frage 60
+- Pico-Modul verworfen → RP2040 direkt auf eigener Platine, JLC bestückt. Tier 3.
+- PC-App-Konzept + Sensorquellen (LibreHardwareMonitor/PawnIO unter Windows) festgelegt.
+- Stichpunkte für dein JOURNAL: Warum RP2040 statt Pico (USB-C-Problem), Recherche zur CPU-Temperatur unter Windows. Bild: Screenshot vom RP2040-Datenblatt oder eine Skizze.

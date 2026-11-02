@@ -4,11 +4,12 @@ _Letztes Update: 2026-11-02_
 
 ## ⚡ NEU (2026-11-02): Drucker gestrichen → PC-Stats-Display
 **Amethyst** ist jetzt ein USB-PC-Stats-Display (Elektronik + 3D-Gehäuse + Code).
-- 3,5"-TFT, Pico auf eigener Trägerplatine (USB-C, RTC), keine Tasten, Seiten rotieren
+- 3,5"-TFT quer, eigene RP2040-Platine (JLC-PCBA, USB-C, RTC), keine Tasten, Seiten rotieren
+- Tier 3 (max. $125), nur Grant
 - Zeigt CPU/GPU, RAM/Speicher, Uhr, Ping/Traffic/Speedtest
 - Firmware Arduino C++, PC-Programm Python (Win/Linux/Mac)
 - Gehäuse: schräger Keil, Fusion 360, PLA schwarz/lila
-- Interview: 36/120, Details in `kontext-zusammenfassung.md` und `fragen-antworten-v2.md`
+- Interview: 60/120, Details in `kontext-zusammenfassung.md` und `fragen-antworten-v2.md`
 
 ---
 ## (Archiv) Alter Stand Drucker
