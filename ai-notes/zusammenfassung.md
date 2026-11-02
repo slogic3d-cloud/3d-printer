@@ -2,10 +2,13 @@
 
 _Letztes Update: 2026-11-02_
 
-## ⚡ NEU (2026-11-02): Drucker gestrichen
-Der Erbauer hat den 3D-Drucker gestrichen (zu teuer, zu kompliziert). **Amethyst** wird ein einfaches Projekt aus Elektronik, 3D-Design und Programmierung.
-- Bisher festgelegt: **Eingabe + Anzeige**, USB-C, 3–4 Wochen, Tier offen (vermutlich 4 oder 3)
-- Interview läuft: `fragen-antworten-v2.md` (8/120)
+## ⚡ NEU (2026-11-02): Drucker gestrichen → PC-Stats-Display
+**Amethyst** ist jetzt ein USB-PC-Stats-Display (Elektronik + 3D-Gehäuse + Code).
+- 3,5"-TFT, Pico auf eigener Trägerplatine (USB-C, RTC), keine Tasten, Seiten rotieren
+- Zeigt CPU/GPU, RAM/Speicher, Uhr, Ping/Traffic/Speedtest
+- Firmware Arduino C++, PC-Programm Python (Win/Linux/Mac)
+- Gehäuse: schräger Keil, Fusion 360, PLA schwarz/lila
+- Interview: 36/120, Details in `kontext-zusammenfassung.md` und `fragen-antworten-v2.md`
 
 ---
 ## (Archiv) Alter Stand Drucker
