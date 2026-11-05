@@ -6373,7 +6373,7 @@
 				)
 			)
 		)
-		(property "Value" "10kl"
+		(property "Value" "10k"
 			(at 106.68 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7352,7 +7352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-WROOM-32U"
+		(property "Value" "ESP32-WROOM-32UE"
 			(at 206.6133 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +7755,7 @@
 				)
 			)
 		)
-		(property "Value" "10kl"
+		(property "Value" "10k"
 			(at 106.68 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +8528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kl"
+		(property "Value" "10k"
 			(at 149.86 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8600,25 +8600,23 @@
 		(fields_autoplaced yes)
 		(uuid "9d60ec33-016a-4b9f-8359-715af477b2b3")
 		(property "Reference" "R1"
-			(at 44.4499 17.78 0)
+			(at 45.72 13.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5,1k"
-			(at 46.9899 17.78 0)
+		(property "Value" "5.1k"
+			(at 45.72 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -9206,25 +9204,23 @@
 		(fields_autoplaced yes)
 		(uuid "cba2ec0e-b5a2-4fa4-b04d-e93e8ff2a0d1")
 		(property "Reference" "R2"
-			(at 44.4499 20.32 0)
+			(at 45.72 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5,1k"
-			(at 46.9899 20.32 0)
+		(property "Value" "5.1k"
+			(at 45.72 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
