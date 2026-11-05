@@ -1,0 +1,14 @@
+# KiCad: local settings, backups, locks, caches
+*.kicad_prl
+*-backups/
+*.lck
+\#auto_saved_files#
+_autosave-*
+fp-info-cache
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Fusion / OS
+.DS_Store
+Thumbs.db

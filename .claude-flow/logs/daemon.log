@@ -170,3 +170,5 @@
 [2026-11-05T16:01:58.576Z] [INFO] Worker optimize completed in 2ms
 [2026-11-05T16:03:58.579Z] [INFO] Starting worker: consolidate (1/2 concurrent)
 [2026-11-05T16:03:58.588Z] [INFO] Worker consolidate completed in 11ms
+[2026-11-05T16:05:58.578Z] [INFO] Starting worker: testgaps (1/2 concurrent)
+[2026-11-05T16:05:58.579Z] [INFO] Worker testgaps completed in 2ms

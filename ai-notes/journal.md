@@ -34,3 +34,8 @@
 - LICENSE: CC BY-NC-SA 4.0 (Wunsch: nicht verkaufen, privat nutzen + weiterentwickeln).
 - Schaltplan-Review: 7 kritische Fehler, v. a. Stromversorgung und EN/Auto-Reset.
 - Stichpunkte für dein JOURNAL: Warum Dev-Board statt Display, erster Schaltplan + Platzierung, was das Review gefunden hat. Bild: Screenshot vom Schaltplan und vom PCB-Layout.
+
+## 2026-11-05: Repo-Struktur nach Fabricate
+- `.gitignore` (KiCad-Backups, .kicad_prl), `BOM.csv` im Root (Bauteile aus dem Schaltplan, Preise/Links leer → Erbauer füllt aus), .kicad_prl nicht mehr getrackt.
+- Board-Korrektur abgelehnt (Fabricate: Schaltplan/Layout macht der Erbauer).
+- Offen beim Erbauer: README-Titel, JOURNAL-Frontmatter-Link auf dev-board ändern, KiCad-Projekt ggf. per „Speichern unter“ in `amethyst` umbenennen.
