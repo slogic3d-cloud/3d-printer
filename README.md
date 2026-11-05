@@ -5,6 +5,7 @@ It supports 3.3V and 5V, and many GND pins.
 
 I built it because of fun and I need a dev-board which I understood. It helped me to learn more about creating schematics and pcbs.
 
+I used ai for correcting and helping me out so that i didn't make that much mistakes.
 
 ## Header J2 (left)
 
