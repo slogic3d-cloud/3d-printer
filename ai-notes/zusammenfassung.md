@@ -16,6 +16,18 @@ Phase 0 → 1: Konzept steht, KiCad-Schaltplan beginnt. Noch nichts bestellt.
 ## Budget
 Tier 3, max. $125, Schätzung ~$80–125 → `bom-schaetzung.md`. Knapp!
 
+## Zeitplan (Stand 2026-11-05: 1 h alle 3 Tage, Start 05.11.)
+Schätzung ~30 h gesamt (Tier 3 braucht ~17–33 h).
+| Abschnitt | h | fertig ca. |
+|---|---|---|
+| Schaltplan (KiCad) | 7 | 23.11. |
+| PCB-Layout + JLC bestellen | 6 | 11.12. |
+| Gehäuse (Fusion) + Testdruck | 5 | 26.12. |
+| Firmware | 6 | 13.01. |
+| PC-App | 4 | 25.01. |
+| Zusammenbau, Test, README | 2 | 31.01.2027 |
+Ein früheres Ende wäre bei 17 h am 23.12. Das ursprüngliche Ziel von 3–4 Wochen bräuchte ~8–10 h pro Woche.
+
 ## Nächste Schritte
 1. KiCad-10-Projekt `PCB/amethyst-pc-stats` anlegen, Schaltplan in Blöcke teilen (Erbauer zeichnet)
 2. RP2040-Datenblatt + „Hardware design with RP2040“ lesen
