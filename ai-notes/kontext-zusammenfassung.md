@@ -1,34 +1,19 @@
 # Kontext-Zusammenfassung (nach /clear zuerst lesen)
 
-_Stand: 2026-11-02, Interview 120/120 ✅_
+_Stand: 2026-11-05_
 
-**Amethyst** = USB-PC-Stats-Display (Hack Club Fabricate, **Tier 3, max. $125, kein Eigengeld**). Der 3D-Drucker ist gestrichen.
+**Amethyst** = jetzt ein **ESP32-Dev-Board** (Hack Club Fabricate, Tier 3 = „Dev-Board“, max. $125). Das PC-Stats-Display und der Drucker sind gestrichen.
+Repo umbenannt: **slogic3d-cloud/dev-board**, gearbeitet wird **nur auf `main`** (Wunsch des Erbauers).
+Lizenz: **CC BY-NC-SA 4.0** (`LICENSE`), privat nutzen + weiterentwickeln ja, verkaufen nein. Ob Fabricate eine Open-Source-Lizenz verlangt, noch prüfen.
 
-## Festgelegt
-- 3,5" TFT 320×480 **ST7796S**/SPI (Amazon.de, Begründung: verlässlicher Verkäufer/Rückgabe), keine Bedienelemente, kein RGB, Seiten wechseln automatisch (Intervall am PC einstellbar)
-- Inhalte: CPU/GPU-Last + Temp, RAM + Speicher, Uhr/Datum, Ping + Traffic + gelegentlicher Speedtest. Kein Spotify.
-- **RP2040 direkt** auf eigener KiCad-Platine (JLC-PCBA, schwarz): USB-C, ESD, LDO, Quarz, 16 MB Flash, RTC PCF8563 + Quarz + CR2032, 2 Lagen, BOOT + RESET, Backlight-PWM, keine LED. Platine sitzt direkt hinter dem Display (Stiftleiste). Kein Touch.
-- Firmware Arduino C++. PC-Programm Python (Windows/Linux, Mac optional). Helligkeit am PC einstellbar.
-- Standby: Uhr. Erbauer testet, ob USB bei PC aus Strom hat (Gigabyte Z170X-UD5 TH, BIOS ErP = Disabled).
-- Gehäuse: schräger Keil ~30°, so flach wie möglich, Front (mit gedruckter Blende) + Rückschale, USB-C seitlich, PCB auf M2-Standoffs, Büroklammer-Loch für BOOT/RESET, Gummifüße, kein Logo. Fusion 360 (Erbauer: Grundlagen), PLA auf Kobra 2 Neo, Schwarz + Lila, Heat-Inserts. UI clean/modern, nur aktuelle Werte.
-- PC-App: Tray + Einstellungsfenster, Gerät automatisch finden, kein Autostart, .exe + Skript. Einstellungen: Intervall, Helligkeit, Seiten an/aus, Farbschema, Ping-Ziele, Speedtest-Intervall, Uhrformat, Sprache DE/EN.
-- Sensoren: Windows über LibreHardwareMonitor-Webserver (PawnIO), Linux psutil + amdgpu, Mac nur Last. GPU: AMD.
-- Display quer 480×320, 2–4 Kacheln pro Seite. Bootlogo, bei Verbindungsabbruch nach 5 s Uhr + „PC getrennt“. Einstellungen im Geräte-Flash. Update: UF2 + Update-Knopf in der PC-App.
-- Firmware: PlatformIO + TFT_eSPI, JSON-Zeilen über USB-CDC (ArduinoJson). PC: pystray + tkinter (System-Standard-Look).
-- JLC: 2 bestückt (+3 nackt), Bezahlung über HCB-Karte. Reihenfolge: PCB zuerst, kein Breadboard-Prototyp. Inserts mit normaler Lötspitze.
-- Erbauer: Python bis Funktionen, Git per GitHub Desktop, 5–10 h/Woche. Design-Reviewer noch offen → vor dem Einreichen erinnern.
-- Claude-Rolle: Schaltplan-Reviews, Code-Hilfe, CAD-Feedback, BOM/Preise.
-- Lizenz: Code MIT, Hardware CERN-OHL. RP2040-Referenzdesign als Lesevorlage.
-- Journal: Claude gibt am Ende jeder Session Stichpunkte, Erbauer schreibt selbst.
-- Erbauer: Programmieren „bisschen“, KiCad „mal reingeschaut“, 3–4 Wochen.
+## Stand KiCad (`PCB/DEV-Board-Based-on-ESP32.*`, KiCad 10, vom Erbauer)
+- ESP32-WROOM-32U, CH340C, AMS1117-3.3, USB-C (HRO TYPE-C-31-M-12), 2× NPN Auto-Reset, BOOT + RESET, 2× 1x19-Stiftleiste, Platine ~39,5 × 52 mm, Bauteile platziert, **nicht geroutet**
+- Review vom 2026-11-05, **kritische Fehler**: ESP32-VDD an GND, CH340C-VCC an GND, C1 in Reihe vor AMS1117-VI, AMS1117-VO geht nirgends hin, EN per R3 nach GND, Auto-Reset-Emitter an GND statt Kreuzschaltung, SENSOR_VN mit RXD0 kurzgeschlossen
+- Sollte geändert werden: IO15 an GND, Kondensatorwerte ohne Einheit und fehlende Entkopplung, -32U braucht externe Antenne (Alternative -32E), Flash-Pins 17–22 markieren, Stiftleisten-Abstand 35,5 mm (nicht im Raster, nicht breadboard-tauglich), ESD/Polyfuse fehlen
+- Tipp gegeben: Power-Symbole + Net-Labels statt langer Drähte, ERC laufen lassen
 
-## Offen
-- Nächster Schritt: KiCad-10-Projekt + Schaltplan-Blöcke mit Claude, danach Journal-Eintrag, täglich 15-Uhr-Erinnerung
-- Display-Pinout des Amazon-Moduls prüfen, bevor der Header platziert wird
-- Repo-Umbenennung in amethyst-pc-stats (Erbauer)
-- USB: ESD USBLC6 + Polyfuse 500 mA, Testpunkte 5V/3V3/GND, erster Test mit Multimeter + Powerbank
-- BOM + Kosten prüfen (≤ $125 inkl. Versand)
-- USB-Standby-Strom am Gigabyte-Board messen
+## Erbauer
+13–15, Deutschland, Programmieren: bisschen (Python bis Funktionen), KiCad: Anfänger, GitHub Desktop, 1 h alle 3 Tage, Erklärungen „mittel“.
 
 ## Ablauf
-Interview fertig. Am Session-Ende Notizen + Commit + Journal-Stichpunkte. Protokoll: `fragen-antworten-v2.md`. Harte Regeln: `kontext.md`.
+Tägliche Erinnerung 14:36 (Trigger trig_012NpC3ZcXYdy1ZP4xGwCUP3). Harte Regeln: `kontext.md`. Am Session-Ende Notizen + Commit auf `main` + Journal-Stichpunkte.

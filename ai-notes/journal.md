@@ -28,3 +28,9 @@
 ## 2026-11-02: Interview fertig (120/120), Repo aufgeräumt
 - Drucker-Notizen gelöscht, Ordner CAD/ PCB/ firmware/ pc-app/ angelegt, BOM-Schätzung (~$80–125).
 - Tägliche Erinnerung 15 Uhr eingerichtet.
+
+## 2026-11-05: Umstieg auf Dev-Board
+- Repo heißt jetzt dev-board, nur noch `main`. KiCad-Dateien des Erbauers nach `PCB/` verschoben, pc-app/ entfernt, versehentliche Plugin-Kopien in ai-notes/ gelöscht.
+- LICENSE: CC BY-NC-SA 4.0 (Wunsch: nicht verkaufen, privat nutzen + weiterentwickeln).
+- Schaltplan-Review: 7 kritische Fehler, v. a. Stromversorgung und EN/Auto-Reset.
+- Stichpunkte für dein JOURNAL: Warum Dev-Board statt Display, erster Schaltplan + Platzierung, was das Review gefunden hat. Bild: Screenshot vom Schaltplan und vom PCB-Layout.

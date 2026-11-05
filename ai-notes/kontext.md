@@ -1,10 +1,9 @@
 # Kontext für Claude (bei jeder Session zuerst lesen)
 
 ## Projekt
-**Amethyst PC Stats**: USB-PC-Stats-Display (3,5"-TFT, eigene RP2040-Platine, 3D-gedrucktes Keilgehäuse, Arduino-Firmware + Python-PC-App).
+**Amethyst**: ESP32-Dev-Board (eigene KiCad-Platine, später Gehäuse/Firmware-Beispiele). Davor geplant und gestrichen: 3D-Drucker, dann PC-Stats-Display.
 Erbauer: Teen (13–15) aus Deutschland, Hack Club **Fabricate Tier 3 (max. $125)**.
-Repo: github.com/slogic3d-cloud/3d-printer (soll vom Erbauer in `amethyst-pc-stats` umbenannt werden).
-Der frühere 3D-Drucker-Plan ist gestrichen und gelöscht.
+Repo: github.com/slogic3d-cloud/dev-board, **nur Branch `main`**. Lizenz CC BY-NC-SA 4.0.
 
 ## Dateien
 - `ai-notes/kontext-zusammenfassung.md`: **aktueller Stand, nach /clear zuerst lesen**
@@ -14,7 +13,7 @@ Der frühere 3D-Drucker-Plan ist gestrichen und gelöscht.
 - `ai-notes/journal.md`: Claudes Arbeitslog (≠ Fabricate-JOURNAL)
 - `ai-notes/fabricate-regeln.md`: Programmregeln
 - `JOURNAL.md`, `README.md`: **gehören dem Erbauer**, ich schreibe dort keinen Inhalt
-- Ordner: `CAD/`, `PCB/`, `firmware/`, `pc-app/`
+- Ordner: `PCB/` (KiCad), `CAD/`, `firmware/`
 
 ## ⚠️ Harte Regeln (Fabricate, sonst Ablehnung/Bann für den Erbauer)
 1. **Keinen Text in README.md oder JOURNAL.md schreiben.** Struktur-Tipps, Stichpunkte, Feedback ja, Text vom Erbauer.

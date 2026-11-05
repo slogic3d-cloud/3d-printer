@@ -1,5 +1,7 @@
 # BOM-Schätzung (Claude, 2026-11-02)
 
+> ⚠️ Veraltet: gehört zum gestrichenen PC-Stats-Display.
+
 > Nur Schätzung zur Budgetkontrolle. Die echte `BOM.csv` (mit Links, Versand, Notizen) legt der Erbauer selbst an, wenn der Schaltplan steht.
 > Grant: **Tier 3 = max. $125**, kein Eigengeld.
 
