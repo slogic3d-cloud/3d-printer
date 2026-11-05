@@ -1,66 +1,41 @@
-# Zusammenfassung – Projektstand Amethyst
+# Zusammenfassung – Amethyst PC Stats
 
-_Letztes Update: 2026-11-01 (Session 1)_
+_Letztes Update: 2026-11-02 (Interview 120/120 fertig)_
 
 ## Status
-Phase 0: **Planung**. Interview (120 Fragen) erledigt, Fabricate-Regeln recherchiert. Noch kein CAD, PCB oder Teil bestellt.
+Phase 0 → 1: Konzept steht, KiCad-Schaltplan beginnt. Noch nichts bestellt.
 
-## Festgelegtes Konzept
-- Geschlossener **CoreXY**, Bauraum **250 × 250 × 250 mm**, Ziel ~500 mm/s
-- **1 Kopf / 2 Düsen** (H2D-Stil, inaktive Düse wird angehoben), je eigener Extruder, 350 °C, werkzeuglose Düsen
-- Düsen-Drucksensor als Bett-Probe (wie Kobra S1 / A1)
-- MGN9/12-Schienen, GT2 9 mm, Z: 3 Spindeln + Z-Tilt
-- Fertiges Heizbett (120 °C) + PEI-Federstahl, Mean-Well-Netzteil
-- Klipper, eigenes Mainboard mit CM4/CB1-Slot, CAN-Toolhead
-- Kamera, KlipperScreen 5–7", Mainsail/Moonraker mit eigener GUI, Tailscale, Spoolman
-- HEPA + Aktivkohle, E-Fach unten, RGB-Status, lila getönte Tür/Deckel, schwarzes Design mit Farbakzenten
-- Multicolor 8–16 Spulen mit Trockner, offenes Protokoll
+## Konzept
+- USB-PC-Stats-Display: CPU/GPU-Last + Temp, RAM/Speicher, Uhr/Datum, Ping/Traffic/Speedtest
+- 3,5" ST7796S-TFT quer (480×320), 2–4 Kacheln pro Seite, Seiten rotieren automatisch, keine Bedienung, kein Touch, kein RGB
+- Eigene 2-Lagen-Platine (JLC-PCBA, schwarz): RP2040, 16 MB Flash, USB-C + USBLC6 + Polyfuse, LDO, PCF8563-RTC + CR2032, BOOT + RESET, Backlight-PWM, Testpunkte
+- Firmware: PlatformIO + TFT_eSPI, JSON-Zeilen über USB, Bootlogo, Uhr bei Verbindungsabbruch, Einstellungen im Flash, Update per UF2 oder Knopf in der PC-App
+- PC-App: Python, pystray + tkinter, Tray + Einstellungen, Gerät automatisch finden, .exe + Skript; Sensoren über LibreHardwareMonitor (Windows), psutil/amdgpu (Linux)
+- Gehäuse: Keil 30°, Front mit Blende + Rückschale, PLA schwarz/lila, Heat-Inserts, M2-Standoffs, Gummifüße
 
-## ⚠️ Konflikte, die der Erbauer entscheiden muss
-1. **Budget:** Fabricate zahlt max. **$500** (≈ 430–460 €), Wunsch 400–800 €. Der Gesamtwunsch (Servos, 48 V, 2 Düsen, Kammerheizung, 8–16-Spulen-System) liegt grob bei **900–1500 €**.
-2. **KI-Regeln:** Claude darf weder CAD noch PCB designen und keinen Text für README/JOURNAL schreiben. Der Erbauer muss das selbst machen; Claude ist Mentor, Rechner, Reviewer und Rechercheur.
-3. **Kostenoptimierung ist Pflicht:** Echte AC-Servos, alles TMC5160 und ein Fallback-Board sind bei Reviewern schwer zu rechtfertigen.
+## Budget
+Tier 3, max. $125, Schätzung ~$80–125 → `bom-schaetzung.md`. Knapp!
 
-## Zuschnitt: ✅ „Abspecken“ vom Erbauer bestätigt (2026-11-01)
-**Fabricate-Projekt 1 = Amethyst-Drucker (Tier 1, ≤ $500):**
-- Normale NEMA17-Stepper (z. B. LDO/Moons'), 24 V; Board bekommt Step/Dir-Header → Servos später möglich
-- TMC2209 für Z/E, TMC2240/5160 für XY
-- Eigenes Mainboard **statt** zusätzlichem Fallback-Board (spart Geld); als Plan B ein günstiges Board erst bei Bedarf
-- 2. Düse: Mechanik + Anschlüsse vorsehen, zweites Hotend nur, wenn das Budget reicht (laut Erbauer zuerst streichen)
-- Kammerheizung: Anschluss + Halterung vorsehen, PTC später
-- Druckteile über Printing Legion (kostenlos, ASA möglich?) → löst auch das Kobra-2-Neo-Problem
-
-**Fabricate-Projekt 2 = Multicolor-Einheit mit Trockner (eigenes Projekt, Tier 2/3).**
-
-## Grobe Kostenschätzung Drucker (Schätzwerte, noch nicht recherchiert)
-| Gruppe | € (ca.) |
-|---|---|
-| Alu-Profile zugeschnitten + Verbinder + Schrauben | 70 |
-| MGN-Schienen (X + 2×Y + 3×Z-Führung) | 70 |
-| 5–6 Stepper + 3 Spindeln + Riemen/Pulleys/Lager | 110 |
-| Heizbett 250 + PEI + SSR + Thermosicherung | 70 |
-| Hotend(s) + Extruder (1×, 2. optional +70) | 70 |
-| Netzteil Mean Well 24 V + IEC-Buchse | 45 |
-| Eigenes Mainboard (PCB + PCBA JLC) + CB1/CM4 | 90 |
-| Toolhead-Board (CAN), Sensoren, Lüfter, Kabel | 60 |
-| Display, Kamera, LEDs | 50 |
-| Acryl-Tür/Deckel, Filter, Versand Printing Legion | 50 |
-| **Summe** | **~685 € (ohne 2. Düse)** |
-
-→ Noch zu teuer für $500. Einsparideen: Klipper-Host = vorhandener alter Rechner/Pi, Display weglassen (Web-UI reicht), günstigere Schienen, Bauraum 220³.
-
-## Rollen
-Erbauer antwortete „wir machen es trotzdem“ auf die KI-Regeln. Claude hat abgelehnt, Journal/README zu schreiben oder CAD/PCB direkt zu erstellen (das wäre Täuschung von Hack Club und könnte zum Bann führen). Claude bleibt Mentor/Reviewer. → In der nächsten Session klären.
+## Zeitplan (Stand 2026-11-05: 1 h alle 3 Tage, Start 05.11.)
+Schätzung ~30 h gesamt (Tier 3 braucht ~17–33 h).
+| Abschnitt | h | fertig ca. |
+|---|---|---|
+| Schaltplan (KiCad) | 7 | 23.11. |
+| PCB-Layout + JLC bestellen | 6 | 11.12. |
+| Gehäuse (Fusion) + Testdruck | 5 | 26.12. |
+| Firmware | 6 | 13.01. |
+| PC-App | 4 | 25.01. |
+| Zusammenbau, Test, README | 2 | 31.01.2027 |
+Ein früheres Ende wäre bei 17 h am 23.12. Das ursprüngliche Ziel von 3–4 Wochen bräuchte ~8–10 h pro Woche.
 
 ## Nächste Schritte
-1. Erbauer entscheidet über Budget und Zuschnitt (siehe Konflikte)
-2. Erbauer legt JOURNAL.md-Eintrag #1 an (Planung/Recherche, mit Bild, z. B. Skizze oder Screenshot)
-3. Gemeinsam: Konzeptskizze Rahmen + Kinematik (Erbauer zeichnet in Fusion, Claude liefert Maße/Rechnungen)
-4. Teileliste konkretisieren mit echten Links (AliExpress/Trianglelab) → `BOM.csv`
-5. KiCad-Lernpfad: kleines Testboard oder direkt Toolhead-Board als Einstieg
-6. Ordner anlegen: `CAD/`, `PCB/`, `firmware/`
+1. KiCad-10-Projekt `PCB/amethyst-pc-stats` anlegen, Schaltplan in Blöcke teilen (Erbauer zeichnet)
+2. RP2040-Datenblatt + „Hardware design with RP2040“ lesen
+3. Journal-Eintrag #1 schreiben (Erbauer, mit Bild)
+4. Repo auf GitHub in `amethyst-pc-stats` umbenennen (Erbauer)
+5. Gigabyte-Board: USB-Standby-Strom messen (BIOS ErP = Disabled)
+6. Design-Reviewer finden (Hack Club Slack #fabricate)
 
-## Offene Fragen
-- Druckt Printing Legion auch ASA/PETG?
-- Welches fertige Heizbett (Maße passend zu 250³)?
-- Dual-Düsen-Hubmechanik: Servo vs. Solenoid vs. Cam (Claude recherchiert, Erbauer entscheidet)
+## Offene Punkte
+- Display-Pinout des konkreten Amazon-Moduls (vor Platzierung des Headers!)
+- Reddit/Printables-Post, Video (beim Build-Ship)

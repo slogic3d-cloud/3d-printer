@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-11-05T10:45:57.229Z",
+  "distillationEnabled": true,
+  "patternsConsolidated": 1,
+  "memoryCleaned": 1,
+  "duplicatesRemoved": 0,
+  "episodes": 1,
+  "episodeEmbeddings": 1,
+  "patternEmbeddings": 1,
+  "causalEdges": 0,
+  "promoted": 0,
+  "byProvenance": {
+    "proxy:structural": 1
+  },
+  "namespaces": [
+    "cost-tracking",
+    "feedback"
+  ],
+  "dryRun": false,
+  "corrupt": false,
+  "stores": [
+    {
+      "dbPath": "/home/user/3d-printer/.swarm/memory.db",
+      "processed": 1,
+      "patterns": 1
+    },
+    {
+      "dbPath": "/home/user/3d-printer/.swarm/agentdb-memory.db",
+      "processed": 0,
+      "patterns": 0
+    }
+  ]
+}

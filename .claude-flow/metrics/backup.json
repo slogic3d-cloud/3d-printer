@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-11-02T12:16:25.375Z",
+  "backedUp": true,
+  "backups": [
+    {
+      "backedUp": true,
+      "path": "/home/user/3d-printer/.swarm/backups/memory-2026-11-02T12-16-25-362Z.db",
+      "sizeBytes": 483328,
+      "rotatedAway": [],
+      "method": "native-online-backup",
+      "dbPath": "/home/user/3d-printer/.swarm/memory.db"
+    },
+    {
+      "backedUp": true,
+      "path": "/home/user/3d-printer/.swarm/backups/store-agentdb-memory.db-2026-11-02T12-16-25-369Z.db",
+      "sizeBytes": 520192,
+      "rotatedAway": [],
+      "method": "native-online-backup",
+      "dbPath": "/home/user/3d-printer/.swarm/agentdb-memory.db"
+    }
+  ],
+  "path": "/home/user/3d-printer/.swarm/backups/memory-2026-11-02T12-16-25-362Z.db",
+  "sizeBytes": 1003520,
+  "rotatedAway": 0,
+  "method": "native-online-backup"
+}
