@@ -192,3 +192,5 @@
 [2026-11-05T16:22:47.814Z] [INFO] Scheduled harness (interval: 21600s, first run in 20830.77s)
 [2026-11-05T16:22:47.814Z] [INFO] Lifecycle monitor active (workspace-removal, ttl=43200s, idle=1800s)
 [2026-11-05T16:22:47.817Z] [INFO] Daemon started (PID: 497, CPUs: 4, workers: 7, maxCpuLoad: 3.2, minFreeMemoryPercent: 10%)
+[2026-11-05T16:24:47.822Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-05T16:24:47.823Z] [INFO] Worker audit completed in 3ms
