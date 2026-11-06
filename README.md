@@ -68,7 +68,19 @@ Below this short sentence you can see a picture from the PCB, actually it is a g
 
 ## What did the ai
 I used ai for correcting and helping me out so that i didn't make that much mistakes.
-As ai, i used "claude code". He made the pinout-
+As ai i used "Claude Code". With him wie brainstormed the Project idea. 
+He made the schematic review and error finding, the Pin-to-Pint cennection list, the Componet and footprint suggestions, the Pinout table formatting.
+He helped me also with the writting, spelling and grammar in the different texts.
+The Repository organization (folder, .gitignore, license file) was made by him like the BOM.csv structure. 
+Important to say is that he helpped at the PCB review and how KiCad work.
+
+### What i did myself:
+Schematics drawing
+Components placement
+PCB routing
+DRC fixes
+Gerber and Step export
+README and journal writing
 
 ## License
 There is a license for the github repo with the board.
