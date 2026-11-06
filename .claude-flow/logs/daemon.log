@@ -404,3 +404,5 @@
 [2026-11-06T10:42:52.551Z] [INFO] Worker harness completed in 4ms
 [2026-11-06T10:42:52.572Z] [INFO] Starting worker: audit (1/2 concurrent)
 [2026-11-06T10:42:52.572Z] [INFO] Worker audit completed in 4ms
+[2026-11-06T10:45:53.845Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-06T10:45:53.846Z] [INFO] Worker map completed in 2ms
