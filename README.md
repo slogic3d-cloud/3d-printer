@@ -39,7 +39,7 @@ Below this short sentence you can see a picture from the PCB, actually it is a g
 | 18 | **5V** | USB 5 V (after fuse) |
 | 19 | **5V** | USB 5 V (after fuse) |
 
-## Header J3 (right)
+### Header J3 (right)
 
 | Pin | Signal | Notes |
 |:---:|:---|:---|
