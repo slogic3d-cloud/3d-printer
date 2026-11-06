@@ -530,9 +530,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "DEV-Board-Based-on-ESP32.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
