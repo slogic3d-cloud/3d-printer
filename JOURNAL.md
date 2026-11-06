@@ -6,7 +6,7 @@ created_at: "2026-11-05"
 total_time: "7.5h"
 ---
 
-## 05.11.2026:
+## 05.11.2026: Starting
 I created the schematics and the board so I started and but didn't finished it at the same day.
 Now I spent over four and a half hours and a lot of nerves on it.
 The PCB was an annoying part of the project but at least i had fun.
@@ -16,7 +16,7 @@ The PCB was an annoying part of the project but at least i had fun.
 
 
 
-## 06.11.2026:
+## 06.11.2026: Finishing
 I made the PCB new because of some mistakes.
 It took me over 3 hours but not as many nerves as yesterday.
 Today I didn't have fun with it because the music was missing.
