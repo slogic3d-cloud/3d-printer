@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T11:00:53.851Z",
+  "timestamp": "2026-11-06T11:15:53.857Z",
   "projectRoot": "/home/user/3d-printer",
   "structure": {
     "hasPackageJson": false,
@@ -7,5 +7,5 @@
     "hasClaudeConfig": false,
     "hasClaudeFlow": true
   },
-  "scannedAt": 1793962853852
+  "scannedAt": 1793963753857
 }
