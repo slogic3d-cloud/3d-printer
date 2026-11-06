@@ -474,3 +474,5 @@
 [2026-11-06T11:47:56.880Z] [INFO] Worker audit completed in 4ms
 [2026-11-06T11:49:56.879Z] [INFO] Starting worker: optimize (1/2 concurrent)
 [2026-11-06T11:49:56.880Z] [INFO] Worker optimize completed in 5ms
+[2026-11-06T11:53:56.877Z] [INFO] Starting worker: testgaps (1/2 concurrent)
+[2026-11-06T11:53:56.877Z] [INFO] Worker testgaps completed in 2ms
