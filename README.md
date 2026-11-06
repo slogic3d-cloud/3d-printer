@@ -65,6 +65,7 @@ Below this short sentence you can see a picture from the PCB, actually it is a g
 
 ## BOM
 See [BOM.csv](BOM.csv)
+Cost: 
 
 ## What did the ai
 I used ai for correcting and helping me out so that i didn't make that much mistakes.
@@ -83,4 +84,5 @@ Gerber and Step export
 README and journal writing
 
 ## License
-There is a license for the github repo with the board.
+License: CC BY-NC-SA 4.0
+Meaning: do not sell it, further develop and private use are allowed
