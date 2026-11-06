@@ -24,3 +24,6 @@ In short i improved the conductive tracks for 3.3V, 5V and GND.
 
 <img width="774" height="766" alt="image" src="https://github.com/user-attachments/assets/5df71dd0-b373-4e0f-b968-29ff70a2fd5f" />
 
+After a short break i export the .step and the gerber files. 
+Made a finale DRC with no errors and now i finished it on KiCad 10.0 .
+The paperwork is being done right now, but the time is not counted.
