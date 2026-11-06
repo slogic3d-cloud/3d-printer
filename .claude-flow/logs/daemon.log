@@ -450,3 +450,5 @@
 [2026-11-06T11:26:20.886Z] [INFO] Worker testgaps completed in 3ms
 [2026-11-06T11:26:57.543Z] [INFO] Starting worker: audit (1/2 concurrent)
 [2026-11-06T11:26:57.544Z] [INFO] Worker audit completed in 4ms
+[2026-11-06T11:30:54.612Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-06T11:30:54.612Z] [INFO] Worker map completed in 2ms
