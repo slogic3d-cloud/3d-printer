@@ -506,3 +506,5 @@
 [2026-11-06T13:19:07.763Z] [INFO] Worker consolidate completed in 12ms
 [2026-11-06T13:21:07.753Z] [INFO] Starting worker: testgaps (1/2 concurrent)
 [2026-11-06T13:21:07.754Z] [INFO] Worker testgaps completed in 2ms
+[2026-11-06T13:25:07.778Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-06T13:25:07.778Z] [INFO] Worker audit completed in 2ms

@@ -13,8 +13,8 @@ U1,AMS1117-3.3,SOT-223-3_TabPin2,5,C6186,0.92,https://www.lcsc.com/product-detai
 U2,ESP32-WROOM-32UE-N4,ESP32-WROOM-32U,5,C701344,17.85,https://www.lcsc.com/product-detail/C701344.html,JLCPCB Extended
 U3,CH340C,SOIC-16_3.9x9.9mm_P1.27mm,5,C7464026,2.66,https://www.lcsc.com/product-detail/C7464026.html,JLCPCB Extended
 U4,USBLC6-2SC6,SOT-23-6,9,C2687116,0.38,https://www.lcsc.com/product-detail/C2687116.html,JLCPCB Extended
-"J2, J3",Pin header 1x19 2.54mm,PinHeader_1x19_P2.54mm_Vertical,2,,,,not assembled - hand soldered; price TBD
-ANT1,2.4 GHz antenna U.FL/IPEX MHF1,-,1,,,,not on PCB; price TBD
+"J2, J3",Pin header 1x19 2.54mm,PinHeader_1x19_P2.54mm_Vertical,2,,,,hand soldered; bought privately on Amazon.de (fast delivery) - not part of grant; price TBD
+ANT1,2.4 GHz antenna U.FL/IPEX MHF1,-,1,,,,not on PCB; bought privately on Amazon.de (fast delivery) - not part of grant; price TBD
 PCB,JLCPCB 2-layer purple 48.5x53mm lead-free HASL,-,5,,4.63,https://jlcpcb.com,
 PCBA,Setup fee,-,1,,22.93,https://jlcpcb.com,Standard PCBA (Economic does not support the ESP32-WROOM-32UE; Standard assembles all 5 boards)
 PCBA,Stencil,-,1,,7.37,https://jlcpcb.com,
