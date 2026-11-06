@@ -400,3 +400,7 @@
 [2026-11-06T10:36:52.559Z] [INFO] Worker consolidate completed in 12ms
 [2026-11-06T10:38:52.550Z] [INFO] Starting worker: testgaps (1/2 concurrent)
 [2026-11-06T10:38:52.551Z] [INFO] Worker testgaps completed in 4ms
+[2026-11-06T10:42:52.549Z] [INFO] Starting worker: harness (1/2 concurrent)
+[2026-11-06T10:42:52.551Z] [INFO] Worker harness completed in 4ms
+[2026-11-06T10:42:52.572Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-06T10:42:52.572Z] [INFO] Worker audit completed in 4ms
