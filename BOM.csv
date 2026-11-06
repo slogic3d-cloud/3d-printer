@@ -16,7 +16,7 @@ U4,USBLC6-2SC6,SOT-23-6,9,C2687116,0.38,https://www.lcsc.com/product-detail/C268
 "J2, J3",Pin header 1x19 2.54mm,PinHeader_1x19_P2.54mm_Vertical,2,,,,not assembled - hand soldered; price TBD
 ANT1,2.4 GHz antenna U.FL/IPEX MHF1,-,1,,,,not on PCB; price TBD
 PCB,JLCPCB 2-layer purple 48.5x53mm lead-free HASL,-,5,,4.63,https://jlcpcb.com,
-PCBA,Setup fee,-,1,,22.93,https://jlcpcb.com,Standard PCBA (Economic would be cheaper)
+PCBA,Setup fee,-,1,,22.93,https://jlcpcb.com,Standard PCBA (Economic does not support some of the parts)
 PCBA,Stencil,-,1,,7.37,https://jlcpcb.com,
 PCBA,Feeders loading fee (extended parts),-,1,,19.33,https://jlcpcb.com,
 PCBA,SMT assembly,-,1,,1.21,https://jlcpcb.com,
