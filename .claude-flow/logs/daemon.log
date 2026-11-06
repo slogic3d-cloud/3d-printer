@@ -470,3 +470,5 @@
 [2026-11-06T11:45:56.872Z] [INFO] Daemon started (PID: 407, CPUs: 4, workers: 7, maxCpuLoad: 3.2, minFreeMemoryPercent: 10%)
 [2026-11-06T11:45:56.875Z] [INFO] Starting worker: map (1/2 concurrent)
 [2026-11-06T11:45:56.875Z] [INFO] Worker map completed in 2ms
+[2026-11-06T11:47:56.879Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-06T11:47:56.880Z] [INFO] Worker audit completed in 4ms
