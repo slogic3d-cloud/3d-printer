@@ -65,7 +65,7 @@ Below this short sentence you can see a picture from the PCB, actually it is a g
 
 ## BOM
 See [BOM.csv](BOM.csv)
-Cost: 
+Cost: 84,49€ or 94,40$
 
 ## What did the ai
 I used ai for correcting and helping me out so that i didn't make that much mistakes.
