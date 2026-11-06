@@ -1,4 +1,4 @@
-Projekt Name: Amethyst-Board
+# Amethyst-Board
 
 Just a board with an external antenna an an ESP32 chip, an usb-c connector and 38 pins.
 It supports 3.3V and 5V, and many GND pins.
