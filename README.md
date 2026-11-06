@@ -1,6 +1,6 @@
 # Amethyst-Board
 ## About
-Just a board with an external antenna an an ESP32 chip, an usb-c connector and 38 pins.
+Just a board with an external antenna and an ESP32 chip, a USB-C connector and 38 pins.
 It supports 3.3V and 5V, and many GND pins.
 
 ## Why I built this
@@ -69,11 +69,11 @@ Cost:
 
 ## What did the ai
 I used ai for correcting and helping me out so that i didn't make that much mistakes.
-As ai i used "Claude Code". With him wie brainstormed the Project idea. 
-He made the schematic review and error finding, the Pin-to-Pint cennection list, the Componet and footprint suggestions, the Pinout table formatting.
-He helped me also with the writting, spelling and grammar in the different texts.
+As ai i used "Claude Code". With him we brainstormed the Project idea. 
+He made the schematic review and error finding, the Pin-to-Pint connection list, the Component and footprint suggestions, the Pinout table formatting.
+He helped me also with the writing, spelling and grammar in the different texts.
 The Repository organization (folder, .gitignore, license file) was made by him like the BOM.csv structure. 
-Important to say is that he helpped at the PCB review and how KiCad work.
+Important to say is that he helped at the PCB review and how KiCad works.
 
 ### What i did myself:
 Schematics drawing
