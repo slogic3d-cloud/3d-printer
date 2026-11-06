@@ -532,7 +532,7 @@
       "netlist": "",
       "plot": "Gerber/",
       "specctra_dsn": "",
-      "step": "DEV-Board-Based-on-ESP32.step",
+      "step": "3D Datei/DEV-Board-Based-on-ESP32.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
