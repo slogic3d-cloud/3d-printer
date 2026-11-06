@@ -39,3 +39,8 @@
 - `.gitignore` (KiCad-Backups, .kicad_prl), `BOM.csv` im Root (Bauteile aus dem Schaltplan, Preise/Links leer → Erbauer füllt aus), .kicad_prl nicht mehr getrackt.
 - Board-Korrektur abgelehnt (Fabricate: Schaltplan/Layout macht der Erbauer).
 - Offen beim Erbauer: README-Titel, JOURNAL-Frontmatter-Link auf dev-board ändern, KiCad-Projekt ggf. per „Speichern unter“ in `amethyst` umbenennen.
+
+## 2026-11-06: PCB fertig, JLC-Angebot
+- Mehrere Review-Runden: Schaltplan korrekt, C6-GND gefixt, Wärme-Vias 0,2→0,3 mm, Gerber vollständig neu exportiert.
+- Repo: STEP, gerbers.zip, production/ (Fabrication Toolkit), BOM.csv mit JLC-Preisen; CAD/, firmware/, PINOUT.md entfernt.
+- JLC-Teile zugeordnet; Hinweis: Economic statt Standard, PCBA 2 statt 5, günstiger Versand.

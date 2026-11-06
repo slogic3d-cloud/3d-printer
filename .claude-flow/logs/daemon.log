@@ -480,3 +480,5 @@
 [2026-11-06T11:57:56.906Z] [INFO] Worker audit completed in 1ms
 [2026-11-06T12:00:58.185Z] [INFO] Starting worker: map (1/2 concurrent)
 [2026-11-06T12:00:58.185Z] [INFO] Worker map completed in 1ms
+[2026-11-06T12:04:56.907Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-11-06T12:04:56.908Z] [INFO] Worker optimize completed in 3ms
