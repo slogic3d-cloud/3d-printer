@@ -500,3 +500,5 @@
 [2026-11-06T13:13:07.755Z] [INFO] Worker map completed in 2ms
 [2026-11-06T13:15:07.754Z] [INFO] Starting worker: audit (1/2 concurrent)
 [2026-11-06T13:15:07.755Z] [INFO] Worker audit completed in 3ms
+[2026-11-06T13:17:07.753Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-11-06T13:17:07.753Z] [INFO] Worker optimize completed in 2ms
