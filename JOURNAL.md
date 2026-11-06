@@ -3,10 +3,10 @@ title: "Amethyst"
 
 description: "look at the README.md"
 created_at: "2026-11-05"
-total_time: "7h"
+total_time: "8.5h"
 ---
 
-##Today is the 5th day of november 2026.
+## Today is the 5th day of november 2026.
 I created the schematics and the board so i started and but i didn't finished it at the same day.
 Now I spend over four and a half houre and so much nerve on it.
 The PCB was an annoying part of the project but at least i had fun.
@@ -16,7 +16,7 @@ The PCB was an annoying part of the project but at least i had fun.
 
 
 
-##Today is the 6th day of november 2026.
+## Today is the 6th day of november 2026.
 I made the PCB new becauso of some mistakes.
 It toke me over 4 hours but not that much nerves like yesterday.
 Today i didn't have fun with it than the music was missing.
