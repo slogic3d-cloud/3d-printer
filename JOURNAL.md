@@ -3,7 +3,7 @@ title: "Amethyst"
 
 description: "look at the README.md"
 created_at: "2026-11-05"
-total_time: "8.5h"
+total_time: "7.5h"
 ---
 
 ## Today is the 5th day of november 2026.
@@ -18,7 +18,9 @@ The PCB was an annoying part of the project but at least i had fun.
 
 ## Today is the 6th day of november 2026.
 I made the PCB new becauso of some mistakes.
-It toke me over 4 hours but not that much nerves like yesterday.
+It toke me over 3 hours but not that much nerves like yesterday.
 Today i didn't have fun with it than the music was missing.
+In short i improved the conductive tracks for 3.3V, 5V and GND.
 
+<img width="774" height="766" alt="image" src="https://github.com/user-attachments/assets/5df71dd0-b373-4e0f-b968-29ff70a2fd5f" />
 
