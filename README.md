@@ -64,7 +64,7 @@ Below this short sentence you can see a picture from the PCB, actually it is a g
 | 19 | **5V** | USB 5 V (after fuse) |
 
 ## BOM
-
+See [BOM.csv](BOM.csv)
 
 ## What did the ai
 I used ai for correcting and helping me out so that i didn't make that much mistakes.
